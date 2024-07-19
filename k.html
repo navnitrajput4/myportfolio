@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Front End Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navnitrajput</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <img src="images/header.jpg" alt="Header Image" class="img-fluid rounded-circle mb-3">
+            <h1 class="display-4">Front End Developer</h1>
+            <p class="lead">Creating stunning websites using HTML5, CSS, JavaScript, Shopify, WordPress, and Bootstrap.</p>
+        </div>
+    </header>
+
+    <section id="about" class="container mt-5">
+        <h2>About Me</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/profile.jpg" alt="Profile Picture" class="img-fluid  mb-3">
+            </div>
+            <div class="col-md-8">
+                <p>Hello! I am a front-end developer with a passion for creating stunning and user-friendly websites. My journey in web development started with HTML and CSS, and over time, I have expanded my skill set to include JavaScript, Shopify, WordPress, and Bootstrap.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container mt-5">
+        <h2>Skills</h2>
+        <div class="row text-center">
+            <div class="col-md-2">
+                <img src="images/html5.png" alt="HTML5" class="img-fluid skill-icon">
+                <p>HTML5</p>
+            </div>
+            <div class="col-md-2">
+                <img src="images/css3.png" alt="CSS3" class="img-fluid skill-icon">
+                <p>CSS3</p>
+            </div>
+            <div class="col-md-2">
+                <img src="images/javascript.png" alt="JavaScript" class="img-fluid skill-icon">
+                <p>JavaScript</p>
+            </div>
+            <div class="col-md-2">
+                <img src="images/shopify.png" alt="Shopify" class="img-fluid skill-icon">
+                <p>Shopify</p>
+            </div>
+            <div class="col-md-2">
+                <img src="images/wordpress.png" alt="WordPress" class="img-fluid skill-icon">
+                <p>WordPress</p>
+            </div>
+            <div class="col-md-2">
+                <img src="images/bootstrap.png" alt="Bootstrap" class="img-fluid skill-icon">
+                <p>Bootstrap</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container mt-5">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/netflixclone.jpg" class="card-img-top" alt="Netflix Clone">
+                    <div class="card-body">
+                        <h5 class="card-title">Netflix Clone</h5>
+                        <p class="card-text">A clone of Netflix using HTML, CSS, and JavaScript.</p>
+                        <a href="index.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/ecommerce.jpg" class="card-img-top" alt="E-commerce Site">
+                    <div class="card-body">
+                        <h5 class="card-title">E-commerce Site</h5>
+                        <p class="card-text">A responsive e-commerce site built with Shopify and Bootstrap.</p>
+                        <a href="ecomerce.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/blog.jpg" class="card-img-top" alt="Blog Website">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Website</h5>
+                        <p class="card-text">A blog website developed using WordPress.</p>
+                        <a href="blog.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container mt-5 mb-5">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Front End Developer. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
